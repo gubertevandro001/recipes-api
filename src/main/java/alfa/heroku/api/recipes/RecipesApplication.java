@@ -2,10 +2,11 @@ package alfa.heroku.api.recipes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 @SpringBootApplication
-@org.springframework.cloud.openfeign.EnableFeignClients
+@EnableFeignClients
 public class RecipesApplication {
 
 	public static void main(String[] args) {
